@@ -1,8 +1,9 @@
 package main
 
 import (
-   "fmt"
-   "github.com/elt/rosso/protobuf"
+	"fmt"
+
+	"github.com/mxrch/rosso/protobuf"
 )
 
 /*
@@ -14,8 +15,8 @@ import (
 94:func (s String) encode(buf []byte, num Number) []byte {
 */
 func main() {
-   m := protobuf.Message{
-      1: protobuf.Bytes{'A', 'B'},
-   }
-   fmt.Printf("%#v\n", m)
+	m := protobuf.Message{
+		1: protobuf.Bytes{'A', 'B'},
+	}
+	fmt.Printf("%#v\n", m)
 }

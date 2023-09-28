@@ -1,4 +1,4 @@
-module github.com/elt/rosso
+module github.com/mxrch/rosso
 
 go 1.19
 
